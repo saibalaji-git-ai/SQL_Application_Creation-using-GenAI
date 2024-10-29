@@ -3,7 +3,7 @@ import sqlite3
 import google.generativeai as genai
 
 # Provide your Genai api Key
-genai.configure(api_key="<provide your api key>")
+genai.configure(api_key="AIzaSyCOHpOYL9ubdNA6C0j1SRf-TBddkn3gJ60")
 
 def get_gemini_response(question,prompt):
     model=genai.GenerativeModel('gemini-pro')
